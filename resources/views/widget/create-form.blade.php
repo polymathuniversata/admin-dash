@@ -14,7 +14,7 @@
         <input type="text"
                class="form-control"
                name="name"
-               value="{{ old('name') }}">
+               value="{{ old('name') }}" />
 
         @if ($errors->has('name'))
 
